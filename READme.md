@@ -1,91 +1,25 @@
 :<div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">project_title</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs ª</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ∑
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ∑
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+A small project which must have functionalities to add information about books and extract them through an API
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+Specifications:
+1. Users are connected to an account (account has multiple users)
+2. Login page, application can be accessed only by logged users
+3. A page with a form to add a book (title, author, release date), the insert must be unique by author and title. Inserted book belongs to user account.
+4. A page where user can list (only) books added by his account in a table. In table must be a column with ‚ÄúDelete‚Äù button, to delete a book - delete action is accessible only first 2 days after book was inserted. 
+5. API endpoint used by an account to fetch his books. (/api/books)
+6. API endpoint to get information of a specific book by id (/api/books/1)
+7. API endpoints must be secured by JWT token, every account has a secret key for API
+8. Seeder to create demo accounts, users, books
 
+Requirements: Laravel Policies, Middlewares, Input Validations, Code Style PSR-5
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -120,6 +54,7 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ### Installation
+It's into working process!!! Text bellow it's just an sample for scripting content written!
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
